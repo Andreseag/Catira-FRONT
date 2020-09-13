@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// ---------- Base Colors ----------
+$primary-color: #80cc28;
+$secondary-color: #fa5b0f;
+$black-color: #272727;
+$black-regular-color: #484848;
+$black-light-color: #c5c5c5;
+// ---------- End Base Colors ----------
+
+// ---------- Base Titles ----------
+$small-link: 14px;
+// ---------- End Base Titles ----------
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $black-regular-color;
+}
+
+// ---------- Color Classes ----------
+.black-color {
+  color: $black-color;
+}
+.black-regular-color {
+  color: $black-regular-color;
+}
+.black-light-color {
+  color: $black-light-color;
+}
+// ---------- End Color Classes ----------
+
+.small-link {
+  font-size: $small-link;
+  color: $black-regular-color;
+}
+
+// ----------- Buttons ----------
+.green-button {
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 5);
+    border-color: darken($primary-color, 5);
+  }
+}

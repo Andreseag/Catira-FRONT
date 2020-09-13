@@ -4,7 +4,7 @@ function CatalogSelect() {
   return (
     <>
       <div className='catalog-select d-flex align-items-center ml-3'>
-        <button className='btn btn-success'>
+        <button className='btn btn-success green-button px-3'>
           <img className='mr-2' src='menu-icon.png' alt='menu-icon' />
           Catálogo
         </button>

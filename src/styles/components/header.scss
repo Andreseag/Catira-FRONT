@@ -1,0 +1,23 @@
+.header {
+  .search-bar {
+    &__search {
+      &__form {
+        img {
+          z-index: 100;
+        }
+        input {
+          background-color: #f0f9e6;
+          border: none;
+          border-radius: 17px;
+          font-size: 14px;
+          padding-left: 4em;
+          font-style: normal;
+          height: 40px;
+          &:focus {
+            box-shadow: 0 0 0 0.2rem rgba(#80cc28, 0.25);
+          }
+        }
+      }
+    }
+  }
+}
