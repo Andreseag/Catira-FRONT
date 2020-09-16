@@ -5,7 +5,7 @@ import CatalogSelect from './CatalogSelect';
 function index() {
   return (
     <>
-      <div className='search-bar d-flex justify-content-between mx-4 border-bottom pb-3'>
+      <div className='search-bar d-flex justify-content-between border-bottom pb-3'>
         <div className='search-bar__logo'>
           <img src='lacatira-logo.png' alt='lacatira-logo' />
         </div>

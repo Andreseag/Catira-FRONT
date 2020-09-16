@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <>
-      <div className='nav-app d-flex align-items-center justify-content-between px-4 pb-2 pt-1'>
+      <div className='nav-app d-flex align-items-center justify-content-between pb-2 pt-1'>
         <div className='info d-flex align-items-center'>
           <div className='info__ubication mr-4'>
             <img src='' alt='' />
