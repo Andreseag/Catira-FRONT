@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Product() {
+function Product(product) {
   return (
     <article
-      className='product card border-0 px-4 pb-4'
+      className='product card border-0 px-4 pb-4 mb-2 mx-1'
       style={{ width: '15rem' }}
     >
       <div className='product__img text-center mt-5'>

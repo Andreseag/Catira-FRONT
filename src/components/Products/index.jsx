@@ -7,7 +7,7 @@ function index() {
     <section className='products mt-5'>
       <div className='products__container'>
         <h2 className='products__title mb-4'>Productos</h2>
-        <div className='products__content d-flex justify-content-between'>
+        <div className='products__content d-flex justify-content-between flex-wrap'>
           {'.'
             .repeat(6)
             .split('')
